@@ -1,0 +1,50 @@
+  body {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: white;
+    background: linear-gradient(315deg, rgba(58,180,170,1) 20%, rgba(29,124,253,1) 50%, rgba(96,69,252,1) 80%);
+  }
+  #inputComp {
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 30%;
+    height: 5%;
+    padding-left: 1%;
+    color: black;
+  }
+  #calculateBtn {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+    font-weight: 500;
+  }
+  #calculateBtn:active {
+    background-color: gold;
+    color: black;
+  }
+  #outputLbl {
+    border: 2px black solid;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 2.55%;
+    padding-bottom: 2.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #explanationBox {
+    font-weight: 500;
+    border: 2px black solid;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255);
+    height: 30%;
+    width: 60%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+    color: black;
+  }
